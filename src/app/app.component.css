@@ -1,0 +1,12 @@
+p, label, h1 {
+  font-family: Lato;
+}
+app-staff {
+  flex: 1;
+}
+#flexWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
