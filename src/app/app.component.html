@@ -8,6 +8,6 @@
 
 <div id="flexWrapper">
   <div  *ngFor="let dummy of ' '.repeat( count ).split(''), let x = index">
-    <app-staff></app-staff>
+    <app-staff [ngClass]="{'thin' : count>5, 'thick' : count<4}"></app-staff>
   </div>
 </div>

@@ -1,9 +1,18 @@
 hr {
-  color: black;
-  height: 1px;
+  height: 3px;
   border:none;
   border-top-color: black;
   border-top-style: solid;
-  border-top-width: 1.5px;
+  border-top-width: 2px;
   width: 98%;
+}
+
+:host(.thin hr) {
+  height: 1px;
+  border-top-width: 1px;
+}
+
+:host(.thick hr) {
+  height: 9px;
+  border-top-width: 2.5px;
 }
